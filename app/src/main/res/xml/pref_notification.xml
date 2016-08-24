@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="notifications_add_item"
+        android:defaultValue="false"
+        android:title="@string/pref_notification_add_item_title" />
+
+    <ListPreference
+        android:defaultValue="All"
+        android:entries="@array/pref_notifications_sync_result_titles"
+        android:entryValues="@array/pref_notifications_sync_result_values"
+        android:key="notifications_sync_result"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_notification_sync_result" />
+</PreferenceScreen>

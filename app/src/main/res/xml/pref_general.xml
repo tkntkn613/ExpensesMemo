@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:id="@+id/account_enable_preference"
+        android:defaultValue="false"
+        android:key="account_enable_switch"
+        android:summary="@string/pref_account_select_summary"
+        android:title="@string/pref_account_select" />
+
+    <!--
+    <Preference
+        android:id="@+id/folder_select_preference"
+        android:key="folder_select"
+        android:title="@string/pref_folder_select"
+        />
+        -->
+    <Preference
+        android:id="@+id/place_management"
+        android:key="place_management"
+        android:title="@string/pref_place_management"
+        />
+</PreferenceScreen>

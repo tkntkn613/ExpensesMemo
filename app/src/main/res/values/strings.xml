@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">ExpensesMemo</string>
+
+    <string name="title_activity_settings">設定</string>
+    <string name="title_activity_item_add">出費メモ登録</string>
+    <string name="title_activity_place">店名補完一覧</string>
+    <string name="title_activity_map">登録店舗編集</string>
+
+    <!-- MainActivity -->
+    <string name="id">id</string>
+    <string name="datetime">日時</string>
+    <string name="item_name">名前</string>
+    <string name="item_price">価格</string>
+    <string name="item_sync">同期</string>
+    <string name="new_item_add">出費メモを作成</string>
+
+    <string name="detail_title">詳細</string>
+    <string name="dialog_ok">OK</string>
+    <string name="update">更新</string>
+    <string name="remove">削除</string>
+    <string name="remove_verify_message">本当に削除してよろしいですか？</string>
+    <string name="remove_verify_remain">削除しない</string>
+
+    <string name="copy_place">店名選択</string>
+
+    <string name="about_title">About</string>
+    <string name="synced_true">同期済み</string>
+    <string name="synced_false">未同期</string>
+
+    <string name="place_name_none">None</string>
+    <string name="time_none">None</string>
+
+    <string name="sync_now">今すぐ同期</string>
+    <string name="settings">設定</string>
+
+    <!-- ItemAddActivity -->
+    <string name="place_name">店名</string>
+    <string name="time_of_payment">支払い時刻</string>
+    <string name="item_list">商品名</string>
+    <string name="item_add">商品欄を追加</string>
+    <string name="item_remove">削除</string>
+    <string name="item_remove_all">商品をクリア</string>
+    <string name="complete">保存</string>
+    <string name="cancel">キャンセル</string>
+
+    <string name="place_name_autocomplete_hint">現在地 (%1$f, %2$f)</string>
+    <string name="place_position_text">(%1$f, %2$f)</string>
+    <string name="select_none">未選択</string>
+    <string name="colon">:</string>
+    <string name="position_select">座標選択</string>
+
+    <string name="toast_requires_permission">This application requires permission %s</string>
+    <string name="toast_requires_place_name">店名が入力されていません</string>
+    <string name="toast_requires_item">商品名を指定してください</string>
+
+    <string name="place_add">新規追加</string>
+    <string name="place_registration">登録</string>
+    <string name="place_cancel">キャンセル</string>
+    <string name="place_list_name">登録店名</string>
+    <string name="place_position">お店の座標</string>
+    <string name="place_remove_verify_message">店舗に紐付いた費用メモが削除されます</string>
+    <string name="toast_duplicate_place_name">既にその店名は存在します</string>
+
+    <string name="toast_place_error">エラーが発生しました</string>
+
+    <string name="place_list_element">%1$s (%2$f, %3$f)</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="toast_no_network_available">ネットワークに接続してください</string>
+    <string name="toast_require_google_play_service">Google Play Servicesが必要です. \nインストールしてこのアプリを再起動してください.</string>
+    <string name="request_permission">This app needs to access your Google account (via Contacts).</string>
+
+    <!-- General settings -->
+    <string name="pref_header_general">一般</string>
+
+    <string name="pref_account_select">同期アカウント</string>
+    <string name="pref_account_select_summary">データを同期するアカウントを選択</string>
+    <string name="pref_auth_account_summary">同期アカウント: %s</string>
+
+    <string name="pref_folder_select">同期フォルダ選択</string>
+
+    <string name="pref_place_management">店名補完一覧</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Data & Sync -->
+    <string name="pref_header_data_sync">同期</string>
+
+    <string name="pref_title_sync_frequency">同期間隔</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>1分</item>
+        <item>5分</item>
+        <item>15分</item>
+        <item>30分</item>
+        <item>1時間</item>
+        <item>3時間</item>
+        <item>同期しない</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>1</item>
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Notifications -->
+    <string name="pref_header_notifications">通知</string>
+
+    <string name="pref_notification_add_item_title">通知欄に追加ボタンを追加</string>
+    <string name="pref_notification_sync_result">同期結果の通知設定</string>
+
+    <string-array name="pref_notifications_sync_result_titles">
+        <item>全て</item>
+        <item>成功時のみ</item>
+        <item>失敗時のみ</item>
+        <item>通知しない</item>
+    </string-array>
+    <string-array name="pref_notifications_sync_result_values">
+        <item>All</item>
+        <item>Success</item>
+        <item>Failed</item>
+        <item>Never</item>
+    </string-array>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- Notification Helper -->
+    <string name="notifications_item_add_text">追加する</string>
+
+    <!-- SyncDataTask -->
+    <string name="sync_success_text">%d件同期しました</string>
+    <string name="sync_failed_text">同期に失敗しました</string>
+</resources>
